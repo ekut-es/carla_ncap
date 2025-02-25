@@ -1,5 +1,13 @@
 # EuroNCAP Dataset
 
+## Generate EuroNCAP VRU Dataset
+Requires `numpy==1.18.0`
+
+Set BASE_DIR to directory the dataset should be generated 
+
+Run `python ncap.py`
+
+
 ## Sensor Data and 2D Labels
 Directories 0-11 are the infrastructure sensor units and car is the vehicle under Test.
 Each directory contains camera images, LiDAR point clouds and information for each frame.
